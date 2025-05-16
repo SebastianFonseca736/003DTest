@@ -18,5 +18,11 @@ public class ApiController {
         return " chao";
     }
 
+    @GetMapping("/regreso")
+    public String volvi() {
+        return " volvi";
+    }
+
+
 
 }
