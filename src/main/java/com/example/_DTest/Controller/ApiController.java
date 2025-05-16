@@ -12,4 +12,11 @@ public class ApiController {
         return "Hola Mundo";
     }
 
+
+    @GetMapping("/despedida")
+    public String chao() {
+        return " chao";
+    }
+
+
 }
